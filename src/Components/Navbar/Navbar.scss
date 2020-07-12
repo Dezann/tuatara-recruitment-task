@@ -20,19 +20,14 @@
 .navigation-buttons {
   button {
     margin-right: 20px;
-    cursor: pointer;
     outline: none;
-    font-family: "Nunito", sans-serif;
     font-size: 20px;
     background: none;
     border: 0;
     text-transform: uppercase;
     font-weight: bold;
-    &:last-child {
-      margin: 0;
-    }
     &:hover {
-      color: grey;
+      color: #2997ff;
     }
   }
 }
@@ -45,4 +40,21 @@
 .login-buttons {
   @include flex-center;
   width: 20%;
+  background-color: #35124b;
+  button {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4px 16px;
+    margin-right: 40px;
+    text-transform: uppercase;
+
+    &:first-child {
+      color: #002d5c;
+    }
+
+    &:last-child {
+      color: #7423b8;
+      margin-right: 0;
+    }
+  }
 }
