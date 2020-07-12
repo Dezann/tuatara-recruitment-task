@@ -1,0 +1,13 @@
+@import "../../App.scss";
+
+.hero {
+  @include flex-center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: url(../../Assets/Images/bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

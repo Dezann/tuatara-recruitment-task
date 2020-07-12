@@ -3,22 +3,22 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <div class="navbar">
-      <div class="navbar-left-content">
+    <div className="navbar">
+      <div className="navbar-left-content">
         <img
-          class="logo"
+          className="logo"
           src="https://upload.wikimedia.org/wikipedia/commons/3/37/Apple_TV%2B_logo.png"
         ></img>
-        <div class="navigation-buttons">
-          <button class="">Phasellus</button>
-          <button class="">Finibus</button>
-          <button class="">Congue & rhoncus</button>
-          <button class="">Vivamus</button>
+        <div className="navigation-buttons">
+          <button className="">Phasellus</button>
+          <button className="">Finibus</button>
+          <button className="">Congue & rhoncus</button>
+          <button className="">Vivamus</button>
         </div>
       </div>
-      <div class="login-buttons">
-        <button class="">Log in</button>
-        <button class="">Register</button>
+      <div className="login-buttons">
+        <button className="">Log in</button>
+        <button className="">Register</button>
       </div>
     </div>
   );
