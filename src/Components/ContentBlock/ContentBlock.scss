@@ -1,0 +1,26 @@
+@import "../../App.scss";
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 0 60px;
+  background-color: rgb(191, 191, 240);
+}
+
+.block__content {
+}
+
+.block__title {
+  color: $primary-color;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.block__body {
+  color: rgb(75, 75, 75);
+  font-size: 24px;
+}
