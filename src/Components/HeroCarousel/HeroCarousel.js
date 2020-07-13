@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 const HeroCarousel = () => {
   let getCarouselOptions = () => ({
     selectedItem: 1,
+    showThumbs: false,
   });
 
   return (

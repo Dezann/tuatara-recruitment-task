@@ -15,11 +15,11 @@ class YoutubePlayerBlock extends Component {
     };
 
     return (
-      <div class="youtube-block">
-        <div class="youtube-block__player">
+      <div className="youtube-block">
+        <div className="youtube-block__player">
           <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={this._onReady} />
         </div>
-        <div class="youtube-block__title">
+        <div className="youtube-block__title">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
       </div>
