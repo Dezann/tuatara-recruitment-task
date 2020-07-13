@@ -20,7 +20,7 @@
 }
 
 .hero__sub-text {
-  font-size: 1.5vw;
+  font-size: 30px;
   margin-bottom: 40px;
 }
 
@@ -41,4 +41,58 @@
 
 .hero-carousel-wrapper {
   width: 600px;
+}
+
+@media (max-width: 1200px) {
+  .hero__sub-text {
+    font-size: 20px;
+  }
+
+  .hero__header {
+    font-size: 80px;
+  }
+
+  .hero__button {
+    font-size: 30px;
+  }
+
+  .hero-carousel-wrapper {
+    width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero__sub-text {
+    font-size: 16px;
+  }
+
+  .hero__header {
+    font-size: 60px;
+  }
+
+  .hero__button {
+    font-size: 20px;
+  }
+
+  .hero-carousel-wrapper {
+    width: 300px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero__sub-text {
+    font-size: 14px;
+  }
+
+  .hero__header {
+    font-size: 50px;
+  }
+
+  .hero__button {
+    font-size: 18px;
+  }
+
+  .hero-carousel-wrapper {
+    width: 250px;
+  }
 }

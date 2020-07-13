@@ -16,3 +16,21 @@
 .control-dots {
   display: none;
 }
+
+@media (max-width: 1200px) {
+  .hero-slide {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-slide {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-slide {
+    font-size: 14px;
+  }
+}
