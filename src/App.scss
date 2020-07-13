@@ -1,3 +1,6 @@
+$main-color: #002d5c;
+$secondary-color: #7423b8;
+
 @mixin flex-center {
   display: flex;
   justify-content: center;
@@ -11,5 +14,6 @@ body {
 
 button {
   cursor: pointer;
+  border: 0;
   font-family: "Nunito", sans-serif;
 }

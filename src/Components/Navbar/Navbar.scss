@@ -27,7 +27,7 @@
     text-transform: uppercase;
     font-weight: bold;
     &:hover {
-      color: #2997ff;
+      color: $secondary-color;
     }
   }
 }
@@ -55,7 +55,7 @@
     }
 
     &:last-child {
-      color: #7423b8;
+      color: $secondary-color;
       margin-right: 0;
     }
   }

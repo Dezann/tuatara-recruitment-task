@@ -11,3 +11,29 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.hero__header,
+.hero__sub-text {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Anton", sans-serif;
+}
+
+.hero__sub-text {
+  font-size: 1.5vw;
+  margin-bottom: 40px;
+}
+
+.hero__header {
+  margin: 0;
+  text-align: center;
+  font-size: 112px;
+  line-height: 100%;
+}
+
+.hero__button {
+  color: $secondary-color;
+  font-weight: 600;
+  font-size: 40px;
+  padding: 8px 50px;
+}
