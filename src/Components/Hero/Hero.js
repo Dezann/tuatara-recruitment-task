@@ -10,7 +10,9 @@ const Hero = () => {
         Duis Eget <br /> Metus at tellus
       </p>
       <div className="hero__header"></div>
-      <HeroCarousel />
+      <div className="hero-carousel-wrapper">
+        <HeroCarousel />
+      </div>
       <button className="hero__button">START</button>
     </div>
   );

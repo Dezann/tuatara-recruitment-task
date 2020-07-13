@@ -29,6 +29,7 @@
   text-align: center;
   font-size: 112px;
   line-height: 100%;
+  text-shadow: 4px 4px 5px rgba(29, 29, 29, 0.63);
 }
 
 .hero__button {
@@ -36,4 +37,8 @@
   font-weight: 600;
   font-size: 40px;
   padding: 8px 50px;
+}
+
+.hero-carousel-wrapper {
+  width: 600px;
 }

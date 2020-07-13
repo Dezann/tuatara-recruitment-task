@@ -2,11 +2,17 @@
   background: none;
 }
 
-.slide {
-  width: 120px;
-}
-
 .hero-slide {
   padding: 30px;
   height: 15vh;
+}
+
+.hero-slide {
+  color: white;
+  font-size: 24px;
+}
+
+.carousel-status,
+.control-dots {
+  display: none;
 }

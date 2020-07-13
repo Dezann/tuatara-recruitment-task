@@ -4,9 +4,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 
 const HeroCarousel = () => {
+  let getCarouselOptions = () => ({
+    selectedItem: 1,
+  });
+
   return (
     <div className="carousel-outer">
-      <Carousel>
+      <Carousel {...getCarouselOptions()}>
         <div className="hero-slide">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur
@@ -14,10 +18,10 @@ const HeroCarousel = () => {
           </p>
         </div>
         <div className="hero-slide">
-          <p>Slide 2</p>
+          <p>consectetur adipiscing elit consectetur adipiscing elit.</p>
         </div>
         <div className="hero-slide">
-          <p>Slide 3</p>
+          <p>orem ipsum dolor sit amet, consectetur</p>
         </div>
       </Carousel>
     </div>
