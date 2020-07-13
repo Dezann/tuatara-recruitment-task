@@ -3,7 +3,12 @@ import "./ContentBlock.scss";
 
 const ContentBlock = (props) => {
   return (
-    <div className="block">
+    <div
+      className="block"
+      style={{
+        background: `url(${props.imageUrl}) no-repeat center center`,
+      }}
+    >
       <div className="block__content">
         <h2 className="block__title">Quisigte ebet libero</h2>
         <p className="block__body">

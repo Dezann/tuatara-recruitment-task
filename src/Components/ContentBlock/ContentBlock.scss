@@ -5,10 +5,12 @@
   flex-direction: column;
   justify-content: center;
   height: 70%;
-  flex-basis: 100%;
-  flex: 1;
   padding: 0 60px;
-  background-color: rgb(191, 191, 240);
+  background: url(../../Assets/Images/jobs.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .block__content {
@@ -22,6 +24,6 @@
 }
 
 .block__body {
-  color: rgb(75, 75, 75);
+  color: white;
   font-size: 28px;
 }
