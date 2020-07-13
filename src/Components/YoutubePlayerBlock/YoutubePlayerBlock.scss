@@ -1,0 +1,27 @@
+@import "../../App.scss";
+
+.youtube-block {
+  width: 50%;
+
+  .youtube-block__player {
+    height: 85%;
+    div {
+      height: 100%;
+    }
+  }
+  .youtube-block__title {
+    height: 15%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+    p {
+      font-size: 36px;
+      width: 60%;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: $primary-color;
+      margin-left: 20px;
+    }
+  }
+}
