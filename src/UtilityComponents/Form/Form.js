@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Form.scss";
+import { ReactComponent as Arrow } from "../../Assets/Images/arrow.svg";
 
 class Form extends Component {
   constructor(props) {
@@ -63,6 +64,7 @@ class Form extends Component {
           name="submit"
         >
           SEND
+          <Arrow />
         </button>
       </form>
     );

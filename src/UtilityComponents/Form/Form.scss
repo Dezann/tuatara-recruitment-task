@@ -22,5 +22,15 @@ form {
     background: none;
     float: right;
     font-size: 18px;
+    position: relative;
+  }
+
+  svg {
+    fill: black;
+    position: absolute;
+    top: 50%;
+    height: 60%;
+    transform: translateY(-50%);
+    vertical-align: middle;
   }
 }
