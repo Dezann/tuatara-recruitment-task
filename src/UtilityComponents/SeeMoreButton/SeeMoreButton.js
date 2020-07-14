@@ -16,9 +16,6 @@ const SeeMoreButton = () => {
           <br />
           MORE
         </div>
-        <div className="see-more-btn__logo">
-          <ReactLogo />
-        </div>
       </div>
     </button>
   );

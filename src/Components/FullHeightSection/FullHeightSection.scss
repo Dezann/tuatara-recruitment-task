@@ -2,11 +2,13 @@
   height: calc(100vh - 50px); //50px is navbar height
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   background-color: white;
 }
 
 @media (max-width: 1200px) {
   .full-height-section {
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 }

@@ -17,11 +17,23 @@
 
     p {
       font-size: 36px;
-      width: 60%;
+      width: 80%;
       text-transform: uppercase;
       font-weight: 600;
       color: $primary-color;
       margin-left: 20px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .youtube-block {
+    width: 100%;
+    height: 100%;
+    .youtube-block__title {
+      p {
+        font-size: 32px;
+      }
     }
   }
 }

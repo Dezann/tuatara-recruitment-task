@@ -36,6 +36,7 @@
     font-weight: 600;
     font-size: 40px;
     padding: 8px 50px;
+    margin-top: 40px;
   }
 
   .hero-carousel-wrapper {
@@ -44,55 +45,61 @@
 }
 
 @media (max-width: 1200px) {
-  .hero__sub-text {
-    font-size: 20px;
-  }
+  .hero {
+    .hero__sub-text {
+      font-size: 20px;
+    }
 
-  .hero__header {
-    font-size: 80px;
-  }
+    .hero__header {
+      font-size: 80px;
+    }
 
-  .hero__button {
-    font-size: 30px;
-  }
+    .hero__button {
+      font-size: 30px;
+    }
 
-  .hero-carousel-wrapper {
-    width: 400px;
+    .hero-carousel-wrapper {
+      width: 400px;
+    }
   }
 }
 
 @media (max-width: 576px) {
-  .hero__sub-text {
-    font-size: 16px;
-  }
+  .hero {
+    .hero__sub-text {
+      font-size: 16px;
+    }
 
-  .hero__header {
-    font-size: 60px;
-  }
+    .hero__header {
+      font-size: 60px;
+    }
 
-  .hero__button {
-    font-size: 20px;
-  }
+    .hero__button {
+      font-size: 20px;
+    }
 
-  .hero-carousel-wrapper {
-    width: 300px;
+    .hero-carousel-wrapper {
+      width: 300px;
+    }
   }
 }
 
 @media (max-width: 420px) {
-  .hero__sub-text {
-    font-size: 14px;
-  }
+  .hero {
+    .hero__sub-text {
+      font-size: 14px;
+    }
 
-  .hero__header {
-    font-size: 50px;
-  }
+    .hero__header {
+      font-size: 50px;
+    }
 
-  .hero__button {
-    font-size: 18px;
-  }
+    .hero__button {
+      font-size: 18px;
+    }
 
-  .hero-carousel-wrapper {
-    width: 250px;
+    .hero-carousel-wrapper {
+      width: 250px;
+    }
   }
 }
