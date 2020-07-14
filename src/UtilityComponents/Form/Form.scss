@@ -1,0 +1,26 @@
+@import "../../App.scss";
+
+form {
+  h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+
+  input {
+    background: none;
+    box-shadow: none;
+    border: 0;
+    padding: 10px 20px;
+    border-bottom: 1px rgb(167, 167, 167) solid;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background: none;
+    float: right;
+    font-size: 18px;
+  }
+}

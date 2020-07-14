@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "../../UtilityComponents/Form/Form";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -26,7 +27,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="contact-form">
-          <p>Form</p>
+          <Form title="Can we help you?" />
         </div>
       </div>
     </div>
