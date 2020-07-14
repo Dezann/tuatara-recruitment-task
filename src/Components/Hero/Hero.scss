@@ -37,6 +37,9 @@
     font-size: 40px;
     padding: 8px 50px;
     margin-top: 40px;
+    &:hover {
+      background-color: white;
+    }
   }
 
   .hero-carousel-wrapper {

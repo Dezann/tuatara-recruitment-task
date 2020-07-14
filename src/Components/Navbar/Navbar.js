@@ -18,6 +18,7 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <img
+          alt="logo"
           className="logo"
           src="https://upload.wikimedia.org/wikipedia/commons/3/37/Apple_TV%2B_logo.png"
         ></img>
@@ -29,16 +30,16 @@ class Navbar extends Component {
           <div className="site-links">
             <ul className="navigation-buttons">
               <li>
-                <a href="#">Phasellus</a>
+                <a href="www.google.com">Phasellus</a>
               </li>
               <li>
-                <a href="#">Finibus</a>
+                <a href="www.google.com">Finibus</a>
               </li>
               <li>
-                <a href="#">Congue & rhoncus</a>
+                <a href="www.google.com">Congue & rhoncus</a>
               </li>
               <li>
-                <a href="#">Vivamus</a>
+                <a href="www.google.com">Vivamus</a>
               </li>
             </ul>
           </div>
