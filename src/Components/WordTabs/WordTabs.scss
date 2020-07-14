@@ -9,6 +9,8 @@
   width: 50%;
   .word {
     font-size: 40px;
+    display: flex;
+    justify-content: center;
 
     li {
       margin-right: 20px;
@@ -38,6 +40,8 @@
 
   .tab-content__body {
     margin-top: 30px;
+    font-weight: lighter;
+    color: grey;
   }
 }
 
@@ -47,4 +51,23 @@
   border-bottom: 6px solid black;
   transform: translateY(-30px);
   transition: transform 0.2s linear;
+}
+
+@media (max-width: 1200px) {
+  .tabs-wrapper {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 476px) {
+  .tabs {
+    width: 80%;
+    .word {
+      font-size: 30px;
+      li {
+        margin-right: 10px;
+      }
+    }
+  }
 }
