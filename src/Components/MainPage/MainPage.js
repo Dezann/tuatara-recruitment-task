@@ -4,12 +4,14 @@ import FullHeightSection from "../FullHeightSection/FullHeightSection";
 import YoutubePlayerBlock from "../YoutubePlayerBlock/YoutubePlayerBlock";
 import ContentBlock from "../ContentBlock/ContentBlock";
 import Footer from "../Footer/Footer";
+import WordTabs from "../WordTabs/WordTabs";
 
 const MainPage = () => {
   return (
     <React.Fragment>
       <Hero />
       <FullHeightSection>
+        <WordTabs />
         <YoutubePlayerBlock />
       </FullHeightSection>
       <FullHeightSection>
