@@ -1,0 +1,17 @@
+.see-more-btn {
+  color: white;
+  background: none;
+  font-size: 20px;
+
+  div:first-child {
+    display: flex;
+    height: auto;
+  }
+}
+
+.see-more-btn__logo {
+  svg {
+    fill: white;
+    height: 100%;
+  }
+}

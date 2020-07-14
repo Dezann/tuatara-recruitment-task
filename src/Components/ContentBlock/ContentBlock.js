@@ -1,5 +1,7 @@
 import React from "react";
 import "./ContentBlock.scss";
+import "../../UtilityComponents/SeeMoreButton/SeeMoreButton";
+import SeeMoreButton from "../../UtilityComponents/SeeMoreButton/SeeMoreButton";
 
 const ContentBlock = (props) => {
   return (
@@ -16,7 +18,7 @@ const ContentBlock = (props) => {
           ultricies sed odio id porttitor. Praesent auctor tristique justo quis
           pretium. Integer vel tincidunt neque, eu convallis metus. Sed
         </p>
-        <button className="block__button">SEE MORE</button>
+        <SeeMoreButton />
       </div>
     </div>
   );
