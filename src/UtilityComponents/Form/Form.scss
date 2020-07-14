@@ -12,6 +12,7 @@ form {
   input {
     background: none;
     box-shadow: none;
+    display: block;
     border: 0;
     padding: 10px 20px;
     border-bottom: 1px rgb(167, 167, 167) solid;
@@ -38,7 +39,6 @@ form {
 @media (max-width: 768px) {
   form {
     input {
-      width: 100%;
       margin-bottom: 20px;
     }
   }
