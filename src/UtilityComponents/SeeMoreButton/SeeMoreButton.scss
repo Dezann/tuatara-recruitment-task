@@ -2,6 +2,8 @@
   color: white;
   background: none;
   font-size: 20px;
+  text-align: left;
+  position: relative;
 
   div:first-child {
     display: flex;
@@ -9,9 +11,11 @@
   }
 }
 
-.see-more-btn__logo {
-  svg {
-    fill: white;
-    height: 100%;
-  }
+svg {
+  fill: white;
+  position: absolute;
+  top: 50%;
+  height: 80%;
+  transform: translateY(-50%);
+  vertical-align: middle;
 }
