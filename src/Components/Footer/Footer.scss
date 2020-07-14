@@ -6,7 +6,7 @@
   align-items: center;
   background-color: #f5f4f5;
   min-height: 25vh;
-  padding: 0px 60px;
+  padding: 20px 60px;
 }
 
 .footer__right,
@@ -16,11 +16,8 @@
 }
 
 .footer__left {
-  min-width: 50vw;
-}
-
-.footer__left {
   display: flex;
+  min-width: 50vw;
 }
 
 .footer__links {
@@ -50,6 +47,25 @@
   display: flex;
   justify-content: space-between;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .footer,
+  .footer__left {
+    flex-direction: column;
+  }
+
+  .footer {
+    padding: 60px;
+    div {
+      margin-bottom: 20px;
+    }
+  }
+
+  .contact-form,
+  .footer__links {
+    width: 100%;
+  }
 }
 
 // .rights-banner {

@@ -34,3 +34,12 @@ form {
     vertical-align: middle;
   }
 }
+
+@media (max-width: 768px) {
+  form {
+    input {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
