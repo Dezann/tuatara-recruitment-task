@@ -1,6 +1,7 @@
 @import "../../App.scss";
 
 .youtube-block {
+  z-index: 2;
   height: calc(100vh - 50px); //50px is navbar height
   width: 50%;
 

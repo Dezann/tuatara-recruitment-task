@@ -9,15 +9,14 @@ class YoutubePlayerBlock extends Component {
       height: "100%",
       width: "100%",
       playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
+        autoplay: 0,
       },
     };
 
     return (
       <div className="youtube-block">
         <div className="youtube-block__player">
-          <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={this._onReady} />
+          <YouTube videoId="-rAeqN-Q7x4" opts={opts} onReady={this._onReady} />
         </div>
         <div className="youtube-block__title">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>

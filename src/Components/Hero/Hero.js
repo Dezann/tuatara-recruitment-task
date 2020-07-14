@@ -5,6 +5,9 @@ import HeroCarousel from "../HeroCarousel/HeroCarousel";
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="triangle1"></div>
+      <div className="triangle2"></div>
+      <div className="triangle3"></div>
       <div className="hero__sub-text">suspendise - imperdiet felis</div>
       <p className="hero__header">
         Duis Eget <br /> Metus at tellus
