@@ -5,6 +5,7 @@ import YoutubePlayerBlock from "../YoutubePlayerBlock/YoutubePlayerBlock";
 import ContentBlock from "../ContentBlock/ContentBlock";
 import Footer from "../Footer/Footer";
 import WordTabs from "../WordTabs/WordTabs";
+import jobsImage from "../../Assets/Images/jobs.png";
 
 const MainPage = () => {
   return (
@@ -15,8 +16,20 @@ const MainPage = () => {
         <YoutubePlayerBlock />
       </FullHeightSection>
       <FullHeightSection>
-        <ContentBlock imageUrl="https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1345&q=80" />
-        <ContentBlock imageUrl="https://images.unsplash.com/photo-1493217465235-252dd9c0d632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
+        <ContentBlock
+          imageUrl={jobsImage}
+          title="Test title"
+          body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          ultricies sed odio id porttitor. Praesent auctor tristique justo quis
+          pretium. Integer vel tincidunt neque, eu convallis metus. Sed"
+        />
+        <ContentBlock
+          imageUrl={jobsImage}
+          title="Lore ipsum"
+          body="sent auctor tristiqu id porttitor. Praesent auctor tristique justo quis
+          pretium. Integer vel tincidunt neque, eu convallis metus. See justo quis
+          pretium. Integer vel tincidunt neque, eu convallis metus. Sed"
+        />
       </FullHeightSection>
       <Footer></Footer>
     </React.Fragment>

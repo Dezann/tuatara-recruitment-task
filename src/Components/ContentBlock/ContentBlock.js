@@ -9,15 +9,12 @@ const ContentBlock = (props) => {
       className="block"
       style={{
         background: `url(${props.imageUrl}) no-repeat center center`,
+        backgroundSize: "cover",
       }}
     >
       <div className="block__content">
-        <h2 className="block__title">Quisigte ebet libero</h2>
-        <p className="block__body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-          ultricies sed odio id porttitor. Praesent auctor tristique justo quis
-          pretium. Integer vel tincidunt neque, eu convallis metus. Sed
-        </p>
+        <h2 className="block__title">{props.title}</h2>
+        <p className="block__body">{props.body}</p>
         <SeeMoreButton />
       </div>
     </div>
