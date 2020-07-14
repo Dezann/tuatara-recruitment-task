@@ -28,3 +28,40 @@
   color: white;
   font-size: 28px;
 }
+
+@media (max-width: 1600px) {
+  .block {
+    height: 60vh;
+  }
+
+  .block__title {
+    font-size: 30px;
+  }
+
+  .block__body {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .block {
+    padding: 20px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .block {
+    padding: 10px 30px;
+  }
+  .block__content {
+    width: 100%;
+  }
+
+  .block__title {
+    font-size: 26px;
+  }
+
+  .block__body {
+    font-size: 16px;
+  }
+}

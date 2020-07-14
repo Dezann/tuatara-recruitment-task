@@ -19,3 +19,9 @@ svg {
   transform: translateY(-50%);
   vertical-align: middle;
 }
+
+@media (max-width: 1200px) {
+  .see-more-btn {
+    font-size: 16px;
+  }
+}
